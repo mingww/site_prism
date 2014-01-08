@@ -1,6 +1,6 @@
 module SitePrism
   class Page
-    include Capybara::DSL
+    include Capybara::Angular::DSL
     include ElementChecker
     extend ElementContainer
 

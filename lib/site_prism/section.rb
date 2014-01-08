@@ -1,6 +1,6 @@
 module SitePrism
   class Section
-    include Capybara::DSL
+    include Capybara::Angular::DSL
     include ElementChecker
     extend ElementContainer
 
